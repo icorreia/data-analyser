@@ -1,4 +1,4 @@
-package com.icorreia.kafka.generator;
+package com.icorreia.generator;
 
 import com.icorreia.kafka.KafkaDataConsumer;
 import com.icorreia.kafka.KafkaDataProducer;
