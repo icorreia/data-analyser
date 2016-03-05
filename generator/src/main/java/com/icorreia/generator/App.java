@@ -1,5 +1,6 @@
 package com.icorreia.generator;
 
+import com.icorreia.cassandra.CassandraConnector;
 import com.icorreia.kafka.KafkaDataConsumer;
 import com.icorreia.kafka.KafkaDataProducer;
 import io.codearte.jfairy.Fairy;
@@ -50,6 +51,9 @@ public class App {
 
             producer.cleanUp();
             consumer.cleanUp();
+
+            CassandraConnector cassandraConnector = new CassandraConnector("localhost", 9042);
+            cassandraConnector.cleanUp();
 
         } catch (Exception e) {
             logger.error("Error while reading stock: ", e);
