@@ -23,7 +23,7 @@ public class KafkaDataProducer {
 
     private final KafkaProducer<Object, Object> producer;
 
-    public KafkaDataProducer() {
+    publicKafkaDataProducer() {
         Properties properties = new Properties();
         properties.put("bootstrap.servers","localhost:9092");
         properties.put("acks","all");

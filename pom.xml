@@ -69,6 +69,14 @@
                 <version>3.9.0.Final</version>
             </dependency>
 
+            <!-- SPARK -->
+            <dependency>
+                <groupId>com.sparkjava</groupId>
+                <artifactId>spark-core</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+
 
             <!-- TESTING -->
             <dependency>
