@@ -10,15 +10,14 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    
-    <artifactId>spark</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.sparkjava</groupId>
-            <artifactId>spark-core</artifactId>
-        </dependency>
+    <modules>
+        <module>kafka</module>
+        <module>jeromq</module>
+        <module>rabbitmq</module>
+    </modules>
 
-    </dependencies>
+    <artifactId>messaging</artifactId>
+    <packaging>pom</packaging>
 
 </project>

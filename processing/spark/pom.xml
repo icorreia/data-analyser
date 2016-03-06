@@ -11,12 +11,12 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>kafka</artifactId>
+    <artifactId>spark</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
+            <groupId>com.sparkjava</groupId>
+            <artifactId>spark-core</artifactId>
         </dependency>
     </dependencies>
 

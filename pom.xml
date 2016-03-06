@@ -16,10 +16,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>cassandra</module>
-        <module>generator</module>
-        <module>spark</module>
-        <module>kafka</module>
+        <module>commons</module>
+        <module>processing</module>
+        <module>database</module>
+        <module>messaging</module>
     </modules>
 
     <dependencyManagement>
